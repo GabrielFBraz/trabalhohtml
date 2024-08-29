@@ -1,0 +1,66 @@
+/* Styles da barra */
+.navbar {
+    background-color: #0000FF; /* Cor da barra */
+    padding: 20px; 
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 30px; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Cor dos títulos  */
+h2 {
+    color: #0000FF; 
+}
+
+/* styles para as seções */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style para o formulário */
+form {
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0000FF; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor do hover do botão mensagem*/
+}
+
+img {
+    border-radius: 18px; /* bordas imagem */
+}
